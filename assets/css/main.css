@@ -4,30 +4,32 @@
     margin: 0;
 }
 
-div {
-      margin-left: -4px;
-}
+
 
 .row {
     padding: 15px;
     background: #ddd;
 }
 
-.col-md-4 {
+article{
+    margin: 0 0 25px -4px;
+}
+
+.col-1-4 {
     padding: 15px;
     background: #eee;
-    width: 25%;
+    width: 33.33%;
     display: inline-block;
 }
 
 @media screen and (max-width: 940px) {
-  .col-md-4 {
+  .col-1-4 {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .col-md-4 {
+  .col-1-4 {
     width: 100%;
   }
 }
