@@ -2,34 +2,46 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-size:16px;
 }
 
+body {
+    font-family: helvetica,arial,sans-serif;
+    background: #fff;
 
-
-.row {
-    padding: 15px;
-    background: #ddd;
+    
 }
+
+h2 {
+    font-size:  1.7em;
+    line-height: 2.4em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
 
 article{
+    vertical-align: top;
     margin: 0 0 25px -4px;
+    padding:20px;
 }
 
 .col-1-4 {
-    padding: 15px;
-    background: #eee;
     width: 33.33%;
     display: inline-block;
 }
 
 @media screen and (max-width: 940px) {
-  .col-1-4 {
+  .col-1-2 {
     width: 50%;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .col-1-4 {
+  .col-1-1 {
     width: 100%;
   }
 }
